@@ -2,9 +2,6 @@
 
 The code and included data can be used to reproduce the experiments described in the paper.
 
-## Appendix
-The `appendix.pdf` file contains additional experiments, figures, settings, and useful information. The sections are referenced from the main document.
-
 ## Supplementary materials
 
 The `Supplementary materials` directory contains the files referenced in the paper:
