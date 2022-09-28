@@ -2,6 +2,9 @@
 
 The code and included data can be used to reproduce the experiments described in the paper.
 
+## Implementation
+The code specific to the neural/adaptive readouts implementation is available in [code/models/graph_models.py](https://github.com/davidbuterez/gnn-neural-readouts/blob/main/code/models/graph_models.py#L321-L356).
+
 ## Supplementary materials
 
 The `Supplementary materials` directory contains the files referenced in the paper:
