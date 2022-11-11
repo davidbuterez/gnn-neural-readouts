@@ -1,6 +1,9 @@
 # Graph Neural Networks with Adaptive Readouts
 
-The code and included data can be used to reproduce the experiments described in the paper.
+The code and included data can be used to reproduce the experiments described in the [*Graph Neural Networks with Adaptive Readouts*](https://arxiv.org/abs/2211.04952) paper (to appear at NeurIPS 2022).
+
+## Abstract
+An effective aggregation of node features into a graph-level representation via readout functions is an essential step in numerous learning tasks involving graph neural networks. Typically, readouts are simple and non-adaptive functions designed such that the resulting hypothesis space is permutation invariant. Prior work on deep sets indicates that such readouts might require complex node embeddings that can be difficult to learn via standard neighborhood aggregation schemes. Motivated by this, we investigate the potential of adaptive readouts given by neural networks that do not necessarily give rise to permutation invariant hypothesis spaces. We argue that in some problems such as binding affinity prediction where molecules are typically presented in a canonical form it might be possible to relax the constraints on permutation invariance of the hypothesis space and learn a more effective model of the affinity by employing an adaptive readout function. Our empirical results demonstrate the effectiveness of neural readouts on more than 40 datasets spanning different domains and graph characteristics. Moreover, we observe a consistent improvement over standard readouts (i.e., sum, max, and mean) relative to the number of neighborhood aggregation iterations and different convolutional operators.
 
 ## Implementation
 The code specific to the neural/adaptive readouts implementation is available in [code/models/graph_models.py](https://github.com/davidbuterez/gnn-neural-readouts/blob/main/code/models/graph_models.py#L321-L356).
