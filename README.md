@@ -1,9 +1,25 @@
 # Graph Neural Networks with Adaptive Readouts
 
-The code and included data can be used to reproduce the experiments described in the [*Graph Neural Networks with Adaptive Readouts*](https://arxiv.org/abs/2211.04952) paper (to appear at NeurIPS 2022).
+The code and included data can be used to reproduce the experiments described in the [*Graph Neural Networks with Adaptive Readouts*](https://papers.nips.cc/paper_files/paper/2022/hash/7caf9d251b546bc78078b35b4a6f3b7e-Abstract-Conference.html) paper (NeurIPS 2022).
 
 ## Abstract
 An effective aggregation of node features into a graph-level representation via readout functions is an essential step in numerous learning tasks involving graph neural networks. Typically, readouts are simple and non-adaptive functions designed such that the resulting hypothesis space is permutation invariant. Prior work on deep sets indicates that such readouts might require complex node embeddings that can be difficult to learn via standard neighborhood aggregation schemes. Motivated by this, we investigate the potential of adaptive readouts given by neural networks that do not necessarily give rise to permutation invariant hypothesis spaces. We argue that in some problems such as binding affinity prediction where molecules are typically presented in a canonical form it might be possible to relax the constraints on permutation invariance of the hypothesis space and learn a more effective model of the affinity by employing an adaptive readout function. Our empirical results demonstrate the effectiveness of neural readouts on more than 40 datasets spanning different domains and graph characteristics. Moreover, we observe a consistent improvement over standard readouts (i.e., sum, max, and mean) relative to the number of neighborhood aggregation iterations and different convolutional operators.
+
+## Cite
+If you find the idea and/or implementation of adaptive readouts useful in your work, a citation is appreciated.
+```
+@inproceedings{NEURIPS2022_7caf9d25,
+ author = {Buterez, David and Janet, Jon Paul and Kiddle, Steven J and Oglic, Dino and Li\`{o}, Pietro},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+ pages = {19746--19758},
+ publisher = {Curran Associates, Inc.},
+ title = {Graph Neural Networks with Adaptive Readouts},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/7caf9d251b546bc78078b35b4a6f3b7e-Paper-Conference.pdf},
+ volume = {35},
+ year = {2022}
+}
+```
 
 ## Implementation
 The code specific to the neural/adaptive readouts implementation is available in [code/models/graph_models.py](https://github.com/davidbuterez/gnn-neural-readouts/blob/main/code/models/graph_models.py#L321-L356).
