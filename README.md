@@ -10,17 +10,18 @@ An effective aggregation of node features into a graph-level representation via 
 
 ## Cite
 If you find the idea and/or implementation of adaptive readouts useful in your work, a citation is appreciated.
+
 ```
 @inproceedings{NEURIPS2022_7caf9d25,
- author = {Buterez, David and Janet, Jon Paul and Kiddle, Steven J and Oglic, Dino and Li\`{o}, Pietro},
- booktitle = {Advances in Neural Information Processing Systems},
- editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
- pages = {19746--19758},
- publisher = {Curran Associates, Inc.},
- title = {Graph Neural Networks with Adaptive Readouts},
- url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/7caf9d251b546bc78078b35b4a6f3b7e-Paper-Conference.pdf},
- volume = {35},
- year = {2022}
+    author = {Buterez, David and Janet, Jon Paul and Kiddle, Steven J and Oglic, Dino and Li\`{o}, Pietro},
+    booktitle = {Advances in Neural Information Processing Systems},
+    editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+    pages = {19746--19758},
+    publisher = {Curran Associates, Inc.},
+    title = {Graph Neural Networks with Adaptive Readouts},
+    url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/7caf9d251b546bc78078b35b4a6f3b7e-Paper-Conference.pdf},
+    volume = {35},
+    year = {2022}
 }
 ```
 
@@ -28,14 +29,14 @@ We have leveraged these techniques to accelerate and improve drug discovery work
 
 ```
  @article{
-	 buterez_janet_kiddle_liò_2022,
-	 place={Cambridge},
-	 title={Multi-fidelity machine learning models for improved high-throughput screening predictions},
-	 DOI={10.26434/chemrxiv-2022-dsbm5-v2},
-	 journal={ChemRxiv},
-	 publisher={Cambridge Open Engage},
-	 author={Buterez, David and Janet, Jon Paul and Kiddle, Steven and Liò, Pietro},
-	 year={2022}
+    buterez_janet_kiddle_liò_2022,
+    place={Cambridge},
+    title={Multi-fidelity machine learning models for improved high-throughput screening predictions},
+    DOI={10.26434/chemrxiv-2022-dsbm5-v2},
+    journal={ChemRxiv},
+    publisher={Cambridge Open Engage},
+    author={Buterez, David and Janet, Jon Paul and Kiddle, Steven and Liò, Pietro},
+    year={2022}
  }
 ```
 
@@ -51,10 +52,10 @@ We have leveraged these techniques to accelerate and improve drug discovery work
     doi = {10.1021/acs.jcim.2c01569},
 
     URL = {
-            https://doi.org/10.1021/acs.jcim.2c01569
+        https://doi.org/10.1021/acs.jcim.2c01569
     },
     eprint = {
-            https://doi.org/10.1021/acs.jcim.2c01569 
+        https://doi.org/10.1021/acs.jcim.2c01569 
     }
 }
 ```
