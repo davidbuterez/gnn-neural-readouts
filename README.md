@@ -24,6 +24,41 @@ If you find the idea and/or implementation of adaptive readouts useful in your w
 }
 ```
 
+We have leveraged these techniques to accelerate and improve drug discovery workflows:
+
+```
+ @article{
+	 buterez_janet_kiddle_liò_2022,
+	 place={Cambridge},
+	 title={Multi-fidelity machine learning models for improved high-throughput screening predictions},
+	 DOI={10.26434/chemrxiv-2022-dsbm5-v2},
+	 journal={ChemRxiv},
+	 publisher={Cambridge Open Engage},
+	 author={Buterez, David and Janet, Jon Paul and Kiddle, Steven and Liò, Pietro},
+	 year={2022}
+ }
+```
+
+```
+@article{doi:10.1021/acs.jcim.2c01569,
+    author = {Buterez, David and Janet, Jon Paul and Kiddle, Steven J. and Liò, Pietro},
+    title = {MF-PCBA: Multifidelity High-Throughput Screening Benchmarks for Drug Discovery and Machine Learning},
+    journal = {Journal of Chemical Information and Modeling},
+    volume = {0},
+    number = {0},
+    pages = {null},
+    year = {0},
+    doi = {10.1021/acs.jcim.2c01569},
+
+    URL = {
+            https://doi.org/10.1021/acs.jcim.2c01569
+    },
+    eprint = {
+            https://doi.org/10.1021/acs.jcim.2c01569 
+    }
+}
+```
+
 ## Implementation
 The code specific to the neural/adaptive readouts implementation is available in [code/models/graph_models.py](https://github.com/davidbuterez/gnn-neural-readouts/blob/main/code/models/graph_models.py#L321-L356).
 
